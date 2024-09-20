@@ -1,9 +1,9 @@
 import { Info } from "../User";
 import Typewriter from "typewriter-effect";
 import { Button, useMatches } from "@mantine/core";
+import ResumeViewer from "./ResumeViewer";
 import { useDisclosure } from "@mantine/hooks";
 import { IconDownload } from "@tabler/icons-react";
-import ResumeViewer from "./ResumeViewer";
 import Particles from "./magicui/Particles";
 import { NeonGradientCard } from "./magicui/neon-gradient-card";
 const About = () => {
@@ -61,7 +61,7 @@ const About = () => {
             </Button>
             <Button
               component="a"
-              href="Resume.pdf"
+              href="resume.pdf"
               download={Info.name}
               className="focus-visible:!outline-none !text-primaryColor !w-fit xs-mx:!w-[46%]"
               size={btn}
