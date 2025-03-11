@@ -19,6 +19,7 @@
     "@mantine/hooks": "^7.12.2",
     "@tabler/icons-react": "^3.17.0",
     "aos": "^2.3.4",
+    "caniuse-lite": "^1.0.30001703",
     "firebase": "^10.13.2",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",

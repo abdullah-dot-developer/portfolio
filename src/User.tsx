@@ -1,9 +1,9 @@
 import {
+  IconBrandFacebook,
+  IconBrandFiverr,
   IconBrandGithub,
-  IconBrandInstagram,
   IconBrandLeetcode,
   IconBrandLinkedin,
-  IconBrandYoutube,
 } from "@tabler/icons-react";
 const Info = {
   name: "Abdullah Abbasi",
@@ -119,11 +119,17 @@ const SkillInfo = [
   },
 ];
 const socialLinks = [
-  { link: "https://github.com/abdullah-dot-programmer", icon: IconBrandGithub },
-  { link: "https://www.linkedin.com/", icon: IconBrandLinkedin },
-  { link: "https://www.instagram.com/", icon: IconBrandInstagram },
-  { link: "https://www.youtube.com/@globalpowers9", icon: IconBrandYoutube },
-  { link: "https://www.leetcode.com/", icon: IconBrandLeetcode },
+  { link: "https://github.com/abdullah-dot-developer", icon: IconBrandGithub },
+  {
+    link: "https://www.linkedin.com/in/abdullah-abbaxi",
+    icon: IconBrandLinkedin,
+  },
+  {
+    link: "https://www.facebook.com/profile.php?id=100066982691947",
+    icon: IconBrandFacebook,
+  },
+  { link: "https://www.fiverr.com/abbasi968", icon: IconBrandFiverr },
+  { link: "https://leetcode.com/u/a22795101/", icon: IconBrandLeetcode },
 ];
 
 const ExperienceInfo = [
