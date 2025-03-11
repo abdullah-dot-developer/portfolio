@@ -21,12 +21,29 @@ const Info = {
 const ProjectInfo = [
   {
     title: "Movix",
+    desc: "I was given a Figma design and asked to convert it into a pixel-perfect, responsive website. I successfully completed the project, and the client was satisfied. ",
+    image: "wellnest.png",
+    live: true,
+    technologies: [
+      "React",
+      "Tailwind",
+      "Zustand",
+      "Nodejs",
+      "Express",
+      "MongoDB",
+      "Authentication",
+    ],
+    link: "https://well-nest-beta.vercel.app/",
+    github: "https://github.com/abdullah-dot-developer/wellNest/",
+  },
+  {
+    title: "WellNest",
     desc: "Explore my portfolio project: a sophisticated movie & TV streaming platform built with React.js, Redux.js & Sass/SCSS. Seamlessly integrated with the TMDB API, dive into a vast library of titles, enriched with comprehensive metadata, ratings, trailers & genres. Offering an intuitive user experience, visitors can effortlessly navigate through the cinematic landscape, discovering their favorite content with ease. With its sleek design and robust features, including advanced search algorithms and interactive elements, users can elevate their streaming experience. Whether you're a cinephile or a casual viewer, embark on an immersive journey through the world of cinema and television. Discover endless entertainment possibilities and unlock the magic of storytelling with my groundbreaking portfolio project.",
     image: "movix.png",
     live: true,
     technologies: ["React", "Tailwind", "Redux", "TMDB API", "Infinite Scroll"],
     link: "https://digitalmovix.com",
-    github: "https://github.com/abdullah-dot-programmer/movix/",
+    github: "https://github.com/abdullah-dot-developer/movix/",
   },
   {
     title: "TechChow",
@@ -35,7 +52,7 @@ const ProjectInfo = [
     live: true,
     technologies: ["HTML", "CSS", "JQuery", "JavaScript"],
     link: "https://techchow.net",
-    github: "https://github.com/abdullah-dot-programmer/techchow/",
+    github: "https://github.com/abdullah-dot-developer/techchow/",
   },
   {
     title: "Cara-Ecommerce",
@@ -44,25 +61,9 @@ const ProjectInfo = [
     live: true,
     technologies: ["HTML", "CSS", "JavaScript", "Resposive Design"],
     link: "https://github.com/Code-Mars/Spotify-Clone",
-    github: "https://github.com/abdullah-dot-programmer/ChicWearHub",
+    github: "https://github.com/abdullah-dot-developer/ChicWearHub",
   },
-  {
-    title: "MERN-Blog",
-    desc: "I successfully developed a robust blogging platform that includes essential features such as user authentication, post creation, commenting, and tagging. The platform allows users to register, log in, and manage their accounts securely, while providing a user-friendly interface for creating and publishing blog posts with titles, content, images, and tags. Additionally, users can engage in discussions through a commenting system, and categorize their posts using dynamic tagging for improved content discovery.",
-    image: "mern-blog.png",
-    live: true,
-    technologies: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "Tailwind",
-      "JWT",
-      "REST API",
-    ],
-    link: "https://mern-blog-z6za.onrender.com/",
-    github: "https://github.com/Code-Mars/mern-blog",
-  },
+
   {
     title: "Gymso Fitness",
     desc: "I have created Gymso Fitness Website using HTML CSS and JavaScript. It is modern and simple disign that is resposnive and can be accessible on different screen sizes. It gives you the impression of my design and development abilities. ",
@@ -112,7 +113,7 @@ const SkillInfo = [
   },
   {
     title: "Languages",
-    skills: ["C", "C++", "JavaScript", "TypeScript"],
+    skills: ["C", "C++", "JavaScript", "TypeScript", "Python"],
   },
   {
     title: "Tools",

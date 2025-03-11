@@ -70,7 +70,7 @@ const ProjectCard = (props: any) => {
         <Group mb="sm" className="!gap-2">
           {props.technologies.map(
             (tech: string, index: number) =>
-              index < 3 && (
+              index < 4 && (
                 <Badge key={index} size={badge} variant="light" color="#64FFDA">
                   {tech}
                 </Badge>
@@ -79,7 +79,7 @@ const ProjectCard = (props: any) => {
         </Group>
         <Text
           className="!text-justify !text-sm xs-mx:!text-xs"
-          lineClamp={5}
+          lineClamp={3}
           size="sm"
           c="dimmed"
         >
