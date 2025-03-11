@@ -5,7 +5,7 @@ import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
 import { validateForm } from "./Validation";
 import { collection, addDoc } from "firebase/firestore";
 import toast from "react-hot-toast";
-import { db } from "../../src/firebase.tsx";
+import { db } from "../firebase/firebase";
 
 const Contact = () => {
   const form = {
