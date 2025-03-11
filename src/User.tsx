@@ -8,6 +8,7 @@ import {
 const Info = {
   name: "Abdullah Abbasi",
   stack: [
+    "Full-Stack Developer",
     "Frontend Developer",
     "Backend Developer",
     "Competitive Programmer",
